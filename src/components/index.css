@@ -1,0 +1,32 @@
+/*Normal select*/
+.label-and-select {
+    width: 250px;
+    margin: 5px 0;
+}
+
+.label-and-select select {
+    width: 150px;
+    float: right;
+}
+
+/*Splitted select*/
+.label-and-splitted-select {
+    width: 250px;
+    margin: 5px 0;
+}
+
+.label-and-splitted-select .splitted-select {
+    display: inline;
+    float: right;
+}
+
+.label-and-splitted-select select {
+    width: 70px;
+    margin: 5px 0;
+}
+
+.label-and-splitted-select .separator {
+    width: 10px;
+    display: inline-block;
+    text-align: center;
+}
